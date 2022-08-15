@@ -25,7 +25,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.acumos.license-usage-manager</groupId>
 	<artifactId>lum-java-rest-client</artifactId>
-	<version>1.2.0-SNAPSHOT</version>
+	<version>1.2.0</version>
 	<name>LUM Java Rest Client</name>
 	<properties>
 		<old.version>1.1.0-SNAPSHOT</old.version>
@@ -43,6 +43,14 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
+
+	<distributionManagement>
+        	<repository>
+            		<id>ai4eu-repo</id>
+            		<url>https://cicd.ai4eu-dev.eu:7443/repository/maven-releases/</url>
+        	</repository>
+    	</distributionManagement> 
+
 	<dependencies>
 		<dependency>
 				<groupId>io.swagger</groupId>
